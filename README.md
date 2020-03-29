@@ -65,7 +65,4 @@ In below, a user can view and update their name. They can view but not update th
      private $name;
      private $roles;
 ```
-The result of a GET request will not include the roles property. and a PUT request to will only update the name property, even if active and roles are passed along with it.
-
-More on: https://www.thinkbean.com/drupal-development-blog/restrict-properties-api-platform-serialization-groups
 
